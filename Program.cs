@@ -14,7 +14,7 @@ namespace pipelines_dotnet_core
     {
         public static void Main(string[] args)
         {
-            CreateWebHostBuilder(args).Build().Run();
+            CreateWebHostBuilder(args).Build().Run(); // Comment has been re-checked in , need to see in Azure DevOps
         }
 
         public static IWebHostBuilder CreateWebHostBuilder(string[] args) =>
